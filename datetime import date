@@ -1,0 +1,20 @@
+from datetime import date
+import datetime
+todays_date = date.today()
+current_time = datetime.datetime.now()
+
+print(todays_date)
+print(current_time)
+
+#this is the output i get back
+
+2019-04-02
+2019-04-02 14:34:06.536635
+
+#this is what i want get back
+
+2019/4/2
+14:45:20
+
+#im completely new to this
+#cant figure out what im doing to get this
